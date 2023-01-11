@@ -1,0 +1,117 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+width: 1600px;
+height: 2349px;
+}
+:root {
+--main-color: #000000;
+--color-blue : #2196F3;
+--color-grey : #757575;
+--color-white : #ffffff;
+--color-deepblue : #2F303A;
+--color-lightgrey : #F5F4FA;
+font-family: Roboto;
+}
+.solution {
+width: 1600px;
+height: 600px;
+background-color: var(--color-deepblue);
+}
+.solution h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    color: var(--color-white);
+}
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: var(--main-color);
+text-decoration: none;
+}
+.logo > span {
+color: var(--color-blue);
+}
+.navigation {
+width: 1600px;
+height: 80px;
+}
+.navigation li {
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+.navigation li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 32px 453px 853px;
+}
+.activities img {
+width: 370px;
+height: 294px;
+}
+.activities {
+width: 1170px;
+height: 386px;
+}
+.features {
+width: 1170px;
+height: 101px;
+}
+.features p {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+.features span {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: var(--color-grey);
+}
+.our-team {
+width: 1600px;
+height: 648px;
+background-color: var(--color-lightgrey);
+}
+.our-team  li {
+width: 270px;
+height: 369px;
+}
+footer {
+position: relative;
+width: 1600px;
+height: 252px;
+top: 2097px;
+background-color: var(--color-deepblue);
+}
+.solution button {
+width: 200px;
+height: 50px;
+background-color: var(--color-blue);
+border-radius: 4px;
+}
+.solution span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-white);
+}
