@@ -1,7 +1,7 @@
-* {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 html {
 width: 1600px;
@@ -36,6 +36,8 @@ font-size: 26px;
 line-height: 31px;
 color: var(--main-color);
 text-decoration: none;
+margin-top: 24px;
+margin-left: 215px;
 }
 .logo > span {
 color: var(--color-blue);
@@ -45,7 +47,6 @@ width: 1600px;
 height: 80px;
 }
 .navigation li {
-text-decoration: none;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -53,12 +54,55 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--main-color);
+list-style-type: none;
 }
-.navigation li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 32px 453px 853px;
+.navigation a {
+text-decoration: none;
+}
+.navigation-menu {
+width: 294px;
+height: 16px;
+display: flex;
+margin-left: 453px;
+margin-top: 32px;
+justify-content: space-between;
+}
+.navigation-menu a {
+color: var(--color-grey);
+}
+.navigation-menu a:hover {
+color: var(--color-blue);
+}
+#studio {
+width: 49px;
+height: 16px;
+}
+#portfolio {
+width: 77px;
+height: 16px;
+}
+#contacts {
+width: 68px;
+height: 16px;
+}
+#mail-nav {
+width: 135px;
+height: 16px;
+margin-left: 1078px;
+}
+#tel-nav {
+width: 122px;
+height: 16px;
+margin-left: 50px;
+}
+.navigation-links {
+display: flex;
+}
+.navigation-links a {
+color: var(--color-grey);
+}
+.navigation-links a:hover {
+color: var(--color-blue);
 }
 .activities img {
 width: 370px;
@@ -101,17 +145,22 @@ height: 252px;
 top: 2097px;
 background-color: var(--color-deepblue);
 }
+.solution {
+}
 .solution button {
 width: 200px;
 height: 50px;
 background-color: var(--color-blue);
 border-radius: 4px;
+border: none;
 }
 .solution span {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-white);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: var(--color-white);
+}
+.solution button:hover {
+background-color: var(--color-grey);
 }
