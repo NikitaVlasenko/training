@@ -214,4 +214,9 @@ width: 231px;
 height: 81px;
 margin-left: 215px;
 margin-top: 111px;
-    }
+}
+.mail-icon {
+fill: var(--color-grey);
+width: 16px;
+height: 12px;
+}
